@@ -1,38 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans&family=Playfair+Display:wght@500&display=swap');
+@import 'antd/dist/reset.css';
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p{
+  margin: 14px 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a{
+ text-decoration: none;
+ color: black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h1 {
+ color: rgb(176, 130, 43);
+ font-size: 70px;
+ font-family: 'Merriweather', serif;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rightBar{
+  display: flex;
+  justify-content: space-between;
+  width: 400px;  
+}
+
+.iconsMenu{
+  display: flex;
+  width: 150px;
+  justify-content: space-around;
+}
+
+.header{
+  background: url(../public/images/salon.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 100% 50%;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.priceSection{
+  padding: 30px;
+}
+
+.service{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Playfair Display', serif;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.ant-divider-horizontal.ant-divider-with-text-center::before,
+.ant-divider-horizontal.ant-divider-with-text-center::after
+{
+   border-top: 0.5px solid rgb(176, 130, 43);
+}
+
+
+.price{
+  color:  rgb(176, 130, 43);
+  font-size: 20px;
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+
+}
+
+.hours{
+  color: white;
+  min-height: 650px;
+  background: url(../public/images/coiffure.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 50%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  padding: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.days{
+  border: 1px solid white;
+  min-width: 175px;
+  min-height: 175px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bold{
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.iconScissors{
+  color:  rgb(176, 130, 43);
+  transform: rotate(-35deg);
 }
