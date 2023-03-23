@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/SantanaCoiffure/static/css/main.be6e32ae.css",
+    "main.js": "/SantanaCoiffure/static/js/main.e499c0fe.js",
+    "static/js/787.cf0c93f5.chunk.js": "/SantanaCoiffure/static/js/787.cf0c93f5.chunk.js",
+    "static/media/salon.jpg": "/SantanaCoiffure/static/media/salon.563f89b857bde7d5bf01.jpg",
+    "static/media/coiffure.jpeg": "/SantanaCoiffure/static/media/coiffure.de29d43e14d264cf99d1.jpeg",
+    "index.html": "/SantanaCoiffure/index.html",
+    "main.be6e32ae.css.map": "/SantanaCoiffure/static/css/main.be6e32ae.css.map",
+    "main.e499c0fe.js.map": "/SantanaCoiffure/static/js/main.e499c0fe.js.map",
+    "787.cf0c93f5.chunk.js.map": "/SantanaCoiffure/static/js/787.cf0c93f5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be6e32ae.css",
+    "static/js/main.e499c0fe.js"
+  ]
+}
